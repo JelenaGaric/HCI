@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<ArrayOfTipKomponenta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TipKomponenta>
+    <PripadaKorisniku>g</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>g</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <Naziv_Tipa>da</Naziv_Tipa>
+    <OznakaTipa>da</OznakaTipa>
+    <OpisTipa>dada
+da</OpisTipa>
+    <SlikaTipa>file:///C:/Users/Jelena/Downloads/product.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <Naziv_Tipa>fs</Naziv_Tipa>
+    <OznakaTipa>fs</OznakaTipa>
+    <OpisTipa>fs
+s</OpisTipa>
+    <SlikaTipa>file:///D:/Slike/Zima/Zima, 2017-18/20171231_211033.jpg</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>hd</Naziv_Tipa>
+    <OznakaTipa>d</OznakaTipa>
+    <OpisTipa>d</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>h</Naziv_Tipa>
+    <OznakaTipa />
+    <OpisTipa />
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>g</Naziv_Tipa>
+    <OznakaTipa />
+    <OpisTipa />
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>d</Naziv_Tipa>
+    <OznakaTipa />
+    <OpisTipa />
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>a</Naziv_Tipa>
+    <OznakaTipa>d</OznakaTipa>
+    <OpisTipa />
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>m</Naziv_Tipa>
+    <OznakaTipa />
+    <OpisTipa />
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <Naziv_Tipa>s</Naziv_Tipa>
+    <OznakaTipa>s</OznakaTipa>
+    <OpisTipa />
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>n</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>n</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>n</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>f</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>f</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>f</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>f</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>ff</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>ff</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>ff</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>q</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>q</PripadaKorisniku>
+    <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+    <OznakaTipa>2</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>q</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>g</Naziv_Tipa>
+    <OznakaTipa>g</OznakaTipa>
+    <OpisTipa>g</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+    <OznakaTipa>3</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+  <TipKomponenta>
+    <PripadaKorisniku>gg</PripadaKorisniku>
+    <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+    <OznakaTipa>1</OznakaTipa>
+    <OpisTipa>Generican tip</OpisTipa>
+    <SlikaTipa />
+  </TipKomponenta>
+</ArrayOfTipKomponenta>

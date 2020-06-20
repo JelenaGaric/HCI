@@ -1,0 +1,78 @@
+﻿<Window  Closing="Window_Closing" x:Class="ProjekatHCI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjekatHCI"
+        mc:Ignorable="d"
+        Title="Evidencija o manifestacijama Novog Sada" Height="450" Width="1034.566">
+
+
+
+    <Grid Margin="0,0,2.377,-0.774">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="34*" />
+            <ColumnDefinition Width="166*"/>
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="201*" />
+            <ColumnDefinition Width="200*" />
+        </Grid.ColumnDefinitions>
+
+        <Menu Background="SlateGray" Grid.ColumnSpan="6" Margin="0,0,0.019,9.774" >
+
+            <MenuItem Header="_Ažuriranje manifestacija..." Grid.Row="0" Grid.Column="0" Height="40">
+                <MenuItem Header="_Dodaj novu manifestaciju... " Click="Otvori_Unos"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="_Prikaži listu manifestacija..."  Click="Otvori_Listu_Manifestacija"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Čuvanje..." Grid.Row="0" Grid.Column="1" >
+                <MenuItem Header="_Čuvanje kao nova datoteka..."  />
+                <Separator/>
+                <MenuItem Header="_Čuvanje kao postojeća datoteka..." />
+            </MenuItem>
+
+            <MenuItem Header="_Pomoć" Grid.Row="0" Grid.Column="2">
+                <MenuItem Header="_O Aplikaciji"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+
+        <Button x:Name="prikazBtn" Content="Prikazi manifestacije" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,11.453,0,0" Grid.Row="2" VerticalAlignment="Top" Width="105" Height="39" Click="Otvori_Listu_Manifestacija"/>
+        <Button x:Name="etiketaBtn" Content="Etiketa manifestacije" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="105" Height="41" Click="EtiketaBtn_Click"/>
+        <Button x:Name="unosTipaBtn" Content="Tip manifestacije" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,9.774,0,0" Grid.Row="3" VerticalAlignment="Top" Width="105" Height="40" Click="UnosTipaBtn_Click"/>
+        <Button x:Name="izlazBtn" Content="Izlaz" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,9.547,0,0" Grid.Row="6" VerticalAlignment="Top" Width="105" Height="41" Click="IzlazBtn_Click"/>
+        <Button x:Name="obrisiBtn" Content="Obrisi manifestaciju" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,10.321,0,0" Grid.Row="5" VerticalAlignment="Top" Width="105" Height="41" Click="ObrisiBtn_Click"/>
+        <Button x:Name="unosManifestacijeBtn" Content="Unesi manifestaciju" Grid.Column="5" HorizontalAlignment="Left" Margin="89.377,11.226,0,0" Grid.Row="1" VerticalAlignment="Top" Width="105" Height="39" Click="Otvori_Unos" RenderTransformOrigin="1.022,0.539"/>
+       
+        <Canvas x:Name="canvasMap" Width="718" Height="350" HorizontalAlignment="Center" VerticalAlignment="Top" AllowDrop="True" DragEnter="CanvasMap_DragEnter" Drop="CanvasMap_Drop" Grid.ColumnSpan="6" Margin="171,0.226,135.302,0" Grid.RowSpan="6" Grid.Row="1">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/mapa.png" />
+            </Canvas.Background>
+            <ListView  x:Name="listViewManifestacije" PreviewMouseLeftButtonDown="ListView_PreviewMouseLeftButtonDown" MouseMove="ListView_MouseMove" Height="341" Canvas.Left="-160" Canvas.Top="11" Width="147" ItemsSource="{Binding manifestacije}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="{Binding ImeManifestacije}" FontWeight="Bold" />
+                            <TextBlock Text="  " />
+                            <TextBlock Text="{Binding TipManifestacijeStr}" />
+                           </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Canvas>
+    </Grid>
+</Window>

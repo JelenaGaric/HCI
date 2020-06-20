@@ -1,0 +1,128 @@
+﻿<Window x:Class="ProjekatHCI.Unos.Unos_Podataka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjekatHCI.Unos"
+        mc:Ignorable="d"
+        Title="Nova manifestacija" Height="629.683" Width="710.218">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Help" Executed="CommandBinding_Executed"/>
+    </Window.CommandBindings>
+    <Grid Margin="0,0,2.811,1.547">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label Content="Oznaka manifestacije (bez specijalnih karaktera!):" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="Ime manfestacije (bez specijalnih karaktera!):" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+        <Label Content="Opis:" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+        <Label Content="Tip:" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left"  VerticalAlignment="Top"  />
+        <Label Content="Status služenja alkohola:" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Left"  VerticalAlignment="Top"  />
+        <Label Content="Odaberi ikonicu..."  Grid.Column="0" Grid.Row="5" HorizontalAlignment="Left"  VerticalAlignment="Top"  />
+        <Label Content="Dozvoljeno pušenje:" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+        <Label Content="Dostupnost za hendikepirane:" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Left"  VerticalAlignment="Top"  />
+        <Label Content="Kategorija cijena:" Grid.Column="0" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="Očekivana publika:" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+        <Label Content="Datum održavanja:" Grid.Column="0" Grid.Row="10" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="Etiketiraj:" Grid.Column="0" Grid.Row="11" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBox x:Name="oznakaTxt"  HelpProvider.HelpKey="Indeks" Grid.Column="1" Grid.Row="0"  HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="9.679,10,0,0" Height="27" Width="144" >
+            <TextBox.Text>
+                <Binding Path="Oznaka" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules >
+                        <local:StringToDoubleValidationRule ValidatesOnTargetUpdated="True"  />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="12" FontWeight="Medium"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+        <TextBox x:Name="imeTxt" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="9.679,9.811,0,0" Height="26" Width="144">
+            <TextBox.Text>
+                <Binding Path="Ime" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules >
+                        <local:StringToDoubleValidationRule ValidatesOnTargetUpdated="True"  />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="12" FontWeight="Medium"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+       
+        <TextBox x:Name="opisTxt" Grid.Column="1" Grid.Row="2"  HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Unesite..." VerticalAlignment="Top" Margin="9.679,9.623,0,0" Height="27" Width="144"/>
+        <Button Content="Odaberi..." HorizontalAlignment="Left"  VerticalAlignment="Top" Grid.Column="1" Grid.Row="5" Click="btnOpenFile_Click" Margin="9.679,10.057,0,0" Height="26" Width="144"/>
+        <CheckBox Content="Da" HorizontalAlignment="Left" Margin="233,287,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Ne" HorizontalAlignment="Left" Margin="335,287,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ocekivana" HorizontalAlignment="Left" Grid.Row="9" TextWrapping="Wrap" Text="Unesite..." VerticalAlignment="Top" Margin="9.679,9.302,0,0" Width="144" Grid.Column="1" Height="26"/>
+        <ComboBox x:Name="cbx2" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="4" VerticalAlignment="Top" Width="144" ItemsSource="{Binding Path=Lista2}" Margin="9.679,10.245,0,0" Height="26"/>
+
+        <ComboBox x:Name="cbx1" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="3" Width="144" VerticalAlignment="Top"  ItemsSource="{Binding Path=Lista1}"
+            DisplayMemberPath="Naziv_Tipa"
+            SelectedValuePath="Naziv_Tipa"
+            SelectedValue="{Binding Path=TipKomponenta}" Margin="9.679,10.434,0,0" Height="26" />
+        <Button Content="Izmijeni..." HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Otvori_Tip" Grid.Column="2" Grid.Row="3" Margin="9.66,9.434,0,0" Height="27" Width="144"/>
+        <Button x:Name="izmjenaEtiketeBtn" Grid.Column="2" Grid.Row="11" Content="Izmijeni..." HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Otvori_Etiketu" Height="25" Margin="9.566,9.83,0,0" Width="144"/>
+        <ComboBox x:Name="cbx4" HorizontalAlignment="Left"  Grid.Column="1" Grid.Row="11" VerticalAlignment="Top" Width="144" ItemsSource="{Binding Lista4}" Margin="9.679,9.83,0,0" Height="25">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding NazivEtikete}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="2" Grid.Row="13" Click="OkBtn_Click" Margin="9.66,9.83,0,0" Height="26" Width="144"/>
+        <Button x:Name="odustaniBtn" Grid.Column="1" Grid.Row="13" Content="Odustani" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="OdustaniBtn_Click" Margin="9.302,9.83,0,0" Height="26" Width="144"/>
+        <DatePicker x:Name="datePicker"  Grid.Column="1" Grid.Row="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="9.679,9.019,0,0" Height="27" Width="144" />
+        <RadioButton x:Name="pusenje" Content="Dozvoljeno" Grid.Column="1" HorizontalAlignment="Left" Margin="10.302,13.868,0,0" Grid.Row="6" VerticalAlignment="Top"/>
+        <RadioButton x:Name="dostupnost" Content="Dostupna" Grid.Column="1" HorizontalAlignment="Left" Margin="10.302,13.679,0,0" Grid.Row="7" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbx3" Grid.Column="1" ItemsSource="{Binding Path=Lista2}" HorizontalAlignment="Left" Margin="10.302,9.396,0,0" Grid.Row="8" VerticalAlignment="Top" Width="143" Height="27"/>
+        <Label Content="Odrzava se:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10.302,0,0" Grid.Row="12"/>
+        <ComboBox x:Name="napoljuIliUnutraCbx" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10.302,10.302,0,0" Grid.Row="12" VerticalAlignment="Top" Width="143"/>
+        <Image x:Name="ikonica" Grid.Column="2" Source="{Binding Slika}" HorizontalAlignment="Left" Height="42" Margin="9.66,0.17,0,0" Grid.Row="5" VerticalAlignment="Top" Width="40"/>
+
+    </Grid>
+</Window>

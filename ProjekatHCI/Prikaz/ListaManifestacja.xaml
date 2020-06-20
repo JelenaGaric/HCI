@@ -1,0 +1,32 @@
+﻿<Window x:Class="ProjekatHCI.Prikaz.ListaManifestacja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjekatHCI"
+        mc:Ignorable="d"
+        Title="Lista manifestacja" Height="450" Width="800">
+
+    <Grid>
+        <ListView x:Name="listViewManifestacije" HorizontalAlignment="Left" Height="373" Margin="10,10,0,0" VerticalAlignment="Top" Width="639">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Naziv_Manifestacije" Width="120" DisplayMemberBinding="{Binding NazivManifestacije}"/>
+                    <GridViewColumn Header="Oznaka_Manifestacije" Width="120" DisplayMemberBinding="{Binding OznakaManifestacije}"/>
+                    <GridViewColumn Header="Opis manifestacije" Width="120" DisplayMemberBinding="{Binding OpisManifestacije}"/>
+                    <GridViewColumn Header="Tip" Width="80" DisplayMemberBinding="{Binding TipManifestacijeStr}"/>
+                    <GridViewColumn Header="Etiketa" Width="120" DisplayMemberBinding="{Binding EtiketaStr}"/>
+                    <GridViewColumn Header="Datum" Width="120" DisplayMemberBinding="{Binding DatumOdrzavanja}"/>
+                    <GridViewColumn Header="Dozvoljeno pušenje" Width="120" DisplayMemberBinding="{Binding DozvoljenoPusenje}"/>
+                    <GridViewColumn Header="Očekivana publika" Width="120" DisplayMemberBinding="{Binding OcekivanaPublika}"/>
+                    <GridViewColumn Header="Služenje alkohola" Width="120" DisplayMemberBinding="{Binding StatusSluzenjaAlkohola}"/>
+                    <GridViewColumn Header="Dostupnost za hendikepirane" Width="120" DisplayMemberBinding="{Binding DostupnaZaHendikepirane}"/>
+                    <GridViewColumn Header="Kategorija cijena" Width="120" DisplayMemberBinding="{Binding KategorijeCijena}"/>
+                    <GridViewColumn Header="Napolju/Unutra" Width="120" DisplayMemberBinding="{Binding NapoljuIliUnutra}"/>
+                </GridView>
+            </ListView.View>
+            <ScrollBar Height="100" Width="100"/>
+        </ListView>
+        <ScrollBar HorizontalAlignment="Left" Margin="10,383,0,0" VerticalAlignment="Top" Width="639" RenderTransformOrigin="0.502,0.585" Height="16"/>
+    </Grid>
+</Window>

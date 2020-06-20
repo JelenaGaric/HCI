@@ -1,0 +1,15 @@
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\ProjekatHCI.csprojAssemblyReference.cache
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Help\HelpViewer.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Login.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Logovanje\Registracija.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Prikaz\ListaManifestacja.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\MainWindow.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Unos\NovaEtiketa.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Prikaz\PrikazManifestacija.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Prikaz\Tip.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Unos\UnosEtikete.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\Unos\UnosNovogTipa.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\App.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\ProjekatHCI_Content.g.cs
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\ProjekatHCI_MarkupCompile.cache
+D:\HCI\ProjekatHCI\ProjekatHCI\obj\x86\Debug\ProjekatHCI_MarkupCompile.lref

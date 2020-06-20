@@ -1,0 +1,36 @@
+﻿<Window x:Class="ProjekatHCI.Unos.UnosNovogTipa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjekatHCI.Unos"
+        mc:Ignorable="d"
+        Title="Unos novog tipa" Width="361.661" Height="235.774" >
+    <Grid Height="192" Margin="0,10,2.113,0" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="45.283"  />
+            <RowDefinition Height="Auto" MinHeight="41.66" />
+            <RowDefinition Height="Auto" MinHeight="64.302" />
+            <RowDefinition Height="Auto" MinHeight="67.925" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBox x:Name="nazivTxt" Grid.Column="1" Grid.Row="0"  TextWrapping="Wrap" Text ="{Binding ElementName=listaTipova, Path=SelectedItem.Naziv_Tipa}" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="17" Margin="0.151,7,0.302,0" />
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" Grid.Column="3" Grid.Row="3"  VerticalAlignment="Top" Click="OkBtn_Click" Height="21" Margin="9.547,9.755,0,0" Width="68" />
+        <Label Content="Naziv tipa:" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Grid.Row="0" Height="24" Width="61" />
+        <TextBox  x:Name="oznakaTxt"  Text ="{Binding ElementName=listaTipova, Path=SelectedItem.OznakaTipa}" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Margin="0.151,7.717,0.302,0" Grid.ColumnSpan="3"/>
+        <Label Content="Opis tipa:" Grid.Column="0"  Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Margin="0,1.057,0,0" Width="56" />
+        <Label Content="Oznaka tipa:" Grid.Column="0"  Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Margin="0,0.717,0,0" Width="70" />
+        <TextBox  x:Name="opisTxt" Text ="{Binding ElementName=listaTipova, Path=SelectedItem.OpisTipa}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" Height="17" Margin="0.151,6.057,0,0" Grid.ColumnSpan="3"/>
+        <Label Content="Ikonica tipa:" Grid.Column="0"  Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Margin="0,47.057,0,0" Width="70" Grid.RowSpan="2" />
+        <TextBox  x:Name="slikaTxt" Text ="{Binding SelectedItem.SlikaTipa, ElementName=listaTipova}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Height="17" Margin="0.151,48.057,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="browseBtn" Content="..." HorizontalAlignment="Left" Grid.Column="2" Grid.Row="2"  VerticalAlignment="Top"  Click="BrowseBtn_Click" Height="17" Margin="44.302,47.057,0,0" Width="34" RenderTransformOrigin="0.449,-0.222" />
+        <Image x:Name="ikonica" Grid.Column="3" Source="{Binding SlikaTipa}" HorizontalAlignment="Left" Height="36" Margin="9.547,28.057,0,0" Grid.Row="2" VerticalAlignment="Top" Width="68"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,51 @@
+﻿<Window Closing="Window_Closing"  x:Class="ProjekatHCI.Login" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjekatHCI"
+        mc:Ignorable="d"
+        Title="Login - Manfestacije Novog Sada" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="D:\HCI\ProjekatHCI\ProjekatHCI\loginScreen.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+            <ColumnDefinition />
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Korisničko ime:" Grid.Column="1" HorizontalAlignment="Left" Margin="9.792,10.226,0,0" Grid.Row="1" VerticalAlignment="Top" Height="40" Width="207" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Content="Šifra:" Grid.Column="1" HorizontalAlignment="Left" Margin="9.792,9.453,0,0" Grid.Row="2" VerticalAlignment="Top" Height="40" Width="207" FontSize="18" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="korisnickoImeTxt" Grid.ColumnSpan="3" Grid.Column="3" HorizontalAlignment="Left" Height="40" Margin="10.377,10.226,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="319" TextChanged="TextBox_TextChanged"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="130" Margin="113,59,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="566" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Button x:Name="odustaniBtn" Content="Odustani" Grid.Column="4" HorizontalAlignment="Left" Height="40" Margin="10.17,10.226,0,0" Grid.Row="5" VerticalAlignment="Top" Width="93" FontSize="18" Click="OdustaniBtn_Click"/>
+        <Button x:Name="logovanjeBtn" Content="Logovanje" Grid.Column="5" HorizontalAlignment="Left" Height="40" Margin="9.962,10.226,0,0" Grid.Row="5" VerticalAlignment="Top" Width="93" FontSize="18" Click="LogovanjeClick"/>
+        <Button x:Name="registracijaBtn" Content="Registracija" Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="9.792,10.226,0,0" Grid.Row="5" VerticalAlignment="Top" Width="207" Grid.ColumnSpan="2" FontSize="18" Click="RegistracijaBtn_Click"/>
+        <Label Grid.ColumnSpan="2" Content="Niste registrovani?" Grid.Column="1" HorizontalAlignment="Left" Height="41" Margin="9.792,9.906,0,0" Grid.Row="4" VerticalAlignment="Top" Width="207" FontSize="18"/>
+        <Label Grid.ColumnSpan="5" Content="&#x9;Dobrodošli - Manifestacije Novog Sada" Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="9.792,10,0,0" VerticalAlignment="Top" Width="546" FontSize="20"/>
+        <PasswordBox x:Name="sifraTxt" Grid.Column="3" HorizontalAlignment="Left" PasswordChar="*" Margin="10.377,14.453,0,0" Grid.Row="2" VerticalAlignment="Top" Height="40" Grid.ColumnSpan="3" Width="320"/>
+    </Grid>
+</Window>

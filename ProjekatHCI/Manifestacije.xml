@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<ArrayOfManifestacija xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Manifestacija>
+    <PripadaKorisniku>g</PripadaKorisniku>
+    <OznakaManifestacije>he</OznakaManifestacije>
+    <TipManifestacijeStr>Nauka/Edukacija</TipManifestacijeStr>
+    <EtiketaStr>Genericna etiketa...</EtiketaStr>
+    <ImeManifestacije>he</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>2</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>g</PripadaKorisniku>
+      <Naziv_Tipa>Nauka/Edukacija</Naziv_Tipa>
+      <OznakaTipa>2</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <Etiketa>
+      <PripadaKorisniku>g</PripadaKorisniku>
+      <NazivEtikete>Genericna etiketa...</NazivEtikete>
+      <OpisEtikete>default vrijednost za etiketiranje</OpisEtikete>
+      <Boja>
+        <A>255</A>
+        <R>34</R>
+        <G>139</G>
+        <B>34</B>
+        <ScA>1</ScA>
+        <ScR>0.0159962941</ScR>
+        <ScG>0.258182853</ScG>
+        <ScB>0.0159962941</ScB>
+      </Boja>
+    </Etiketa>
+    <X>485.43383962264147</X>
+    <Y>9.49631266846361</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>neko</PripadaKorisniku>
+    <OznakaManifestacije>jdjjd</OznakaManifestacije>
+    <TipManifestacijeStr>Kultura/Zabava</TipManifestacijeStr>
+    <EtiketaStr>Genericna etiketa...</EtiketaStr>
+    <ImeManifestacije>dd</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>0</StatusSluzenjaAlkohola>
+    <KategorijeCijena>1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>0</NapoljuIliUnutra>
+    <IndeksNaMapi>2</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>neko</PripadaKorisniku>
+      <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+      <OznakaTipa>1</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <Etiketa>
+      <PripadaKorisniku>neko</PripadaKorisniku>
+      <NazivEtikete>Genericna etiketa...</NazivEtikete>
+      <OpisEtikete>default vrijednost za etiketiranje</OpisEtikete>
+      <Boja>
+        <A>255</A>
+        <R>34</R>
+        <G>139</G>
+        <B>34</B>
+        <ScA>1</ScA>
+        <ScR>0.0159962941</ScR>
+        <ScG>0.258182853</ScG>
+        <ScB>0.0159962941</ScB>
+      </Boja>
+    </Etiketa>
+    <X>603.16968867924527</X>
+    <Y>257.64725606469</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <OznakaManifestacije>n m </OznakaManifestacije>
+    <TipManifestacijeStr>Kultura/Zabava</TipManifestacijeStr>
+    <ImeManifestacije>nkjnk</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>2</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>h</PripadaKorisniku>
+      <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+      <OznakaTipa>1</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>211.92440566037732</X>
+    <Y>98.2510296495957</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <OznakaManifestacije>g</OznakaManifestacije>
+    <TipManifestacijeStr>Kultura/Zabava</TipManifestacijeStr>
+    <ImeManifestacije>g</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>0</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>h</PripadaKorisniku>
+      <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+      <OznakaTipa>1</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>-1</X>
+    <Y>-1</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <OznakaManifestacije>ghj</OznakaManifestacije>
+    <TipManifestacijeStr>Kultura/Zabava</TipManifestacijeStr>
+    <ImeManifestacije>h</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>0</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>h</PripadaKorisniku>
+      <Naziv_Tipa>Kultura/Zabava</Naziv_Tipa>
+      <OznakaTipa>1</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>-1</X>
+    <Y>-1</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <OznakaManifestacije>k</OznakaManifestacije>
+    <TipManifestacijeStr>g</TipManifestacijeStr>
+    <ImeManifestacije>k</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>0</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>h</PripadaKorisniku>
+      <Naziv_Tipa>g</Naziv_Tipa>
+      <OznakaTipa />
+      <OpisTipa />
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>-1</X>
+    <Y>-1</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>h</PripadaKorisniku>
+    <OznakaManifestacije>d</OznakaManifestacije>
+    <TipManifestacijeStr>Politika/Ekonomija</TipManifestacijeStr>
+    <ImeManifestacije>dd</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>0</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>h</PripadaKorisniku>
+      <Naziv_Tipa>Politika/Ekonomija</Naziv_Tipa>
+      <OznakaTipa>3</OznakaTipa>
+      <OpisTipa>Generican tip</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>-1</X>
+    <Y>-1</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>x</PripadaKorisniku>
+    <OznakaManifestacije>xxx</OznakaManifestacije>
+    <TipManifestacijeStr>xx</TipManifestacijeStr>
+    <ImeManifestacije>xxx</ImeManifestacije>
+    <OpisManifestacije>xxxx</OpisManifestacije>
+    <StatusSluzenjaAlkohola>0</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>true</DozvoljenoPusenje>
+    <OcekivanaPublika>x</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>0</NapoljuIliUnutra>
+    <IndeksNaMapi>2</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>x</PripadaKorisniku>
+      <Naziv_Tipa>xx</Naziv_Tipa>
+      <OznakaTipa>xx</OznakaTipa>
+      <OpisTipa>x</OpisTipa>
+      <SlikaTipa>file:///D:/Photoshop/Jeca/Bleach/blič/ulquiorra-bleach-anime-artwork-pinterest-14168929618g4kn.jpg</SlikaTipa>
+    </TipManifestacije>
+    <X>545.20742452830189</X>
+    <Y>251.30763342318059</Y>
+  </Manifestacija>
+  <Manifestacija>
+    <PripadaKorisniku>hh</PripadaKorisniku>
+    <OznakaManifestacije>hh</OznakaManifestacije>
+    <TipManifestacijeStr>hh</TipManifestacijeStr>
+    <ImeManifestacije>hh</ImeManifestacije>
+    <OpisManifestacije>Unesite...</OpisManifestacije>
+    <StatusSluzenjaAlkohola>-1</StatusSluzenjaAlkohola>
+    <KategorijeCijena>-1</KategorijeCijena>
+    <Slika />
+    <DostupnaZaHendikepirane>false</DostupnaZaHendikepirane>
+    <DozvoljenoPusenje>false</DozvoljenoPusenje>
+    <OcekivanaPublika>Unesite...</OcekivanaPublika>
+    <DatumOdrzavanja />
+    <NapoljuIliUnutra>-1</NapoljuIliUnutra>
+    <IndeksNaMapi>2</IndeksNaMapi>
+    <TipManifestacije>
+      <PripadaKorisniku>hh</PripadaKorisniku>
+      <Naziv_Tipa>hh</Naziv_Tipa>
+      <OznakaTipa>h</OznakaTipa>
+      <OpisTipa>h</OpisTipa>
+      <SlikaTipa>file:///D:/HCI/ProjekatHCI/ProjekatHCI/defaultLokacija.png</SlikaTipa>
+    </TipManifestacije>
+    <X>341.43383962264147</X>
+    <Y>166.17555795148249</Y>
+  </Manifestacija>
+</ArrayOfManifestacija>

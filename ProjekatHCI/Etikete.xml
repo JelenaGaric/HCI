@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ArrayOfEtiketa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Etiketa>
+    <PripadaKorisniku>g</PripadaKorisniku>
+    <NazivEtikete>Genericna etiketa...</NazivEtikete>
+    <OpisEtikete>default vrijednost za etiketiranje</OpisEtikete>
+    <Boja>
+      <A>255</A>
+      <R>34</R>
+      <G>139</G>
+      <B>34</B>
+      <ScA>1</ScA>
+      <ScR>0.0159962941</ScR>
+      <ScG>0.258182853</ScG>
+      <ScB>0.0159962941</ScB>
+    </Boja>
+  </Etiketa>
+  <Etiketa>
+    <PripadaKorisniku>neko</PripadaKorisniku>
+    <NazivEtikete>Genericna etiketa...</NazivEtikete>
+    <OpisEtikete>default vrijednost za etiketiranje</OpisEtikete>
+    <Boja>
+      <A>255</A>
+      <R>34</R>
+      <G>139</G>
+      <B>34</B>
+      <ScA>1</ScA>
+      <ScR>0.0159962941</ScR>
+      <ScG>0.258182853</ScG>
+      <ScB>0.0159962941</ScB>
+    </Boja>
+  </Etiketa>
+  <Etiketa>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <NazivEtikete>Genericna etiketa...</NazivEtikete>
+    <OpisEtikete>default vrijednost za etiketiranje</OpisEtikete>
+    <Boja>
+      <A>255</A>
+      <R>34</R>
+      <G>139</G>
+      <B>34</B>
+      <ScA>1</ScA>
+      <ScR>0.0159962941</ScR>
+      <ScG>0.258182853</ScG>
+      <ScB>0.0159962941</ScB>
+    </Boja>
+  </Etiketa>
+  <Etiketa>
+    <PripadaKorisniku>jelena</PripadaKorisniku>
+    <NazivEtikete>d</NazivEtikete>
+    <OpisEtikete />
+    <Boja>
+      <A>255</A>
+      <R>148</R>
+      <G>0</G>
+      <B>211</B>
+      <ScA>1</ScA>
+      <ScR>0.296138257</ScR>
+      <ScG>0</ScG>
+      <ScB>0.651405632</ScB>
+    </Boja>
+  </Etiketa>
+</ArrayOfEtiketa>
